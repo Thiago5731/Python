@@ -7,7 +7,7 @@ while True:
     if jogador > 10 or jogador < 0:
         print (f'O valor escolhido foi: {jogador} escolha uma valor valido.')
     soma = computador + jogador
-    parim = str(input('Digite P para par e I para impar: ')).upper().strip()
+    parim = str(input('Digite P para par e I para impar: ')).upper().strip()[0]
     print(f'O computador escolheu: {computador}')
     print(f'O jogador escolheu: {jogador}')
     print(f'A soma deu: {soma}')

@@ -1,0 +1,15 @@
+#exercicio73
+tabela = ('atletico', 'bahia', 'botafogo', 'ceará', 'corintians', 'cruzeiro', 'flamengo', 'fluminense', 'fortaleza', 'gremio')
+print (f'Os 10 priemiros times da tabela do brasileirão são: \n{tabela}')
+print('-'*50)
+print (f'Os 5 primeiros são: {tabela[:5]}')
+print('-'*50)
+print (f'Os 4 ultimos colocados são: {tabela[4:]}')
+print('-'*50)
+print (f'Os times em ordem alfabetica são: {sorted(tabela)}')
+print('-'*50)
+print (f'O time do botafogo está na posição: {tabela.index("botafogo")+1}')
+print('-'*50)
+for pos, time in enumerate(tabela):
+    print (f'O time do {time} está na posição:{pos}')
+print('-'*50)
